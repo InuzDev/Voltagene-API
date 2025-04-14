@@ -7,6 +7,7 @@ export class CreateContactDto {
    @IsNotEmpty()
    lastName: string
 
+   @IsNotEmpty()
    @IsEmail()
    email: string
 

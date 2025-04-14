@@ -1,6 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import * as nodemailer from 'nodemailer';
 
+// We having issues with this. fix ASAP before the end of the week.
+
 @Injectable()
 export class MailerService {
   private transporter = nodemailer.createTransport({
